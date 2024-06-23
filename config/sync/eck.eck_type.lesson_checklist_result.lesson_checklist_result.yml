@@ -1,0 +1,11 @@
+uuid: f4f9a842-c908-4736-bb5d-6a8742e7542b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.lesson_checklist_result
+_core:
+  default_config_hash: aluSgcHgWzI3C0g5Fy1y9jqKnXllSRNiKW0MYO9jtkc
+type: lesson_checklist_result
+name: 'Checklist result'
+description: ''
