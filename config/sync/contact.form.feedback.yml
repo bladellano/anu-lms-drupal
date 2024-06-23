@@ -1,0 +1,14 @@
+uuid: 027bfe03-5fe3-4aca-8a56-891435de1ae7
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Entre em contato'
+recipients:
+  - bladellano@gmail.com
+reply: ''
+weight: 0
+message: 'Sua mensagem foi enviada.'
+redirect: ''

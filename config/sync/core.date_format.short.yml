@@ -1,0 +1,10 @@
+uuid: 78a6c395-3af2-442c-9cf6-cd38786165ef
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
+id: short
+label: 'Data curta padrão'
+locked: false
+pattern: 'd/m/Y - H:i'
