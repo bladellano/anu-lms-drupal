@@ -2,13 +2,13 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: pt-br
 uuid: 410ff80c-8d64-454f-8ffa-595e74e1d74f
-name: 'Learning Anu Lms'
+name: 'Aprendendo ANU LMS'
 mail: bladellano@gmail.com
-slogan: ''
+slogan: "Comemore seu aniversário com a gente, porque 'não contavam com minha astúcia' para fazer sua festa inesquecível!"
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/27
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: pt-br

@@ -6,3 +6,15 @@ drawer_style: modal
 drawer_height: full
 footer_style: standard
 messages_fixed: 0
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://logo_nyx_technology_1.png'
+favicon:
+  use_default: 1
+  path: 'public://logo_nyx_technology.png'
+  mimetype: image/png
