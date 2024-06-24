@@ -1,5 +1,5 @@
 uuid: ff56ed3b-360f-4644-91e9-14553b5d61dd
-langcode: en
+langcode: pt-br
 status: true
 dependencies:
   enforced:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: FxMdscEA4aDH0KPM73HIZtVn3zIAgC1kQ3CkBw26HYs
 name: media_library
-label: 'Media Library thumbnail (220×220)'
+label: 'Miniatura da biblioteca de mídia (220x220)'
 effects:
   75b076a8-1234-4b42-85db-bf377c4d8d5f:
     uuid: 75b076a8-1234-4b42-85db-bf377c4d8d5f

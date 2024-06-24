@@ -1,12 +1,12 @@
 uuid: dc0d1b7f-8886-4407-8889-0cacd5390311
-langcode: en
+langcode: pt-br
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 6Qope5wG7HUpV0tPOBMtDI_GZkHFcF1Xj4hgD9Cu_hM
 id: image
-label: Image
-description: 'Use local images for reusable media.'
+label: Imagem
+description: 'Use imagens locais como mídias reutilizáveis.'
 source: image
 queue_thumbnail_downloads: false
 new_revision: true

@@ -1,12 +1,12 @@
 uuid: 37c83c0e-3e9d-4ac6-8ad7-69da808ce469
-langcode: en
+langcode: pt-br
 status: true
 dependencies: {  }
 _core:
   default_config_hash: _D9q3XSnP6ik9we9UuoTvZsQKPuYNp_G9PfwVtWzgnQ
 id: document
-label: Document
-description: 'An uploaded file or document, such as a PDF.'
+label: Documento
+description: 'Um arquivo ou documento carregado, como um PDF.'
 source: file
 queue_thumbnail_downloads: false
 new_revision: true

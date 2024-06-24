@@ -1,5 +1,6 @@
 _core:
   default_config_hash: QOEBZriO4vptbz5qn302tge394g7bOcetu_s76fEL48
+langcode: pt-br
 courses_page_labels: 'Courses page|Courses pages'
 courses_page_label_plural: 'Courses pages'
 course_labels: Course|Courses
@@ -9,4 +10,4 @@ lesson_label_plural: Lessons
 assessment_labels: Quiz|Quizzes
 assessment_label_plural: Quizzes
 module_labels: Module|Modules
-module_label_plural: Modules
+module_label_plural: Módulos
