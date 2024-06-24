@@ -30,6 +30,7 @@
         "drupal/paragraphs_browser": "^1.2",
         "drupal/paragraphs_selection": "^2.0",
         "drupal/rest_entity_recursive": "^2.0@RC",
+        "drupal/smtp": "^1.2",
         "drupal/weight": "^3.4",
         "drush/drush": "^12.5"
     },
