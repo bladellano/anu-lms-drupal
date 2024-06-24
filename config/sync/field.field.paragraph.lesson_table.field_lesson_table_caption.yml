@@ -1,0 +1,21 @@
+uuid: 2695ce13-7a7f-4964-9b72-bf7608682be4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_table_caption
+    - paragraphs.paragraphs_type.lesson_table
+_core:
+  default_config_hash: q6O3eLLn3UXoe9Hc6PIjCBmrW-0J6Wst3mdQr77Mipo
+id: paragraph.lesson_table.field_lesson_table_caption
+field_name: field_lesson_table_caption
+entity_type: paragraph
+bundle: lesson_table
+label: Legenda
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

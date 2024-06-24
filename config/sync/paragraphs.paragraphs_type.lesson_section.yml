@@ -1,0 +1,12 @@
+uuid: 94beeca2-9a11-4c3d-a235-e407d5d32ebe
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: arU02qr6rYEd4_p11KFyQZfzf9bAtE_DDAERAOVzwI0
+id: lesson_section
+label: Página
+icon_uuid: null
+icon_default: null
+description: 'Partition of lesson into pages.'
+behavior_plugins: {  }

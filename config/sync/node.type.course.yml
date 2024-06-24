@@ -1,0 +1,13 @@
+uuid: cc1acbd1-9b2e-4543-8835-97beafe3d1a7
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: a5aDfPaZXIoaANWRvrS5Qk2Dra3DoAZ7cDOM1aCPv6U
+name: Curso
+type: course
+description: 'A set of modules on a particular subject.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

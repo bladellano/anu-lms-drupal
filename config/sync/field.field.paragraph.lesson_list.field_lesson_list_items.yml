@@ -1,0 +1,26 @@
+uuid: 1110a46f-2ad9-4db0-a2c7-2ea4f082b152
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_list_items
+    - paragraphs.paragraphs_type.lesson_list
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: zxNHM9Kwql4KIuwE7fIlmGZ12kjXMXgcfwOwpHFYVEY
+id: paragraph.lesson_list.field_lesson_list_items
+field_name: field_lesson_list_items
+entity_type: paragraph
+bundle: lesson_list
+label: Itens
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - minimal_html
+field_type: text_long

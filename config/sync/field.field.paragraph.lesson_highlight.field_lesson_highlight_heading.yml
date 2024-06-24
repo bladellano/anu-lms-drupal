@@ -1,0 +1,21 @@
+uuid: 03b69230-5685-485f-aec2-25820e4af7c1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_highlight_heading
+    - paragraphs.paragraphs_type.lesson_highlight
+_core:
+  default_config_hash: PhZSZ-l3iHa8L7AaxHqTjp8PU5R3XrL9xJ3ghN1qolg
+id: paragraph.lesson_highlight.field_lesson_highlight_heading
+field_name: field_lesson_highlight_heading
+entity_type: paragraph
+bundle: lesson_highlight
+label: Cabeçalho
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

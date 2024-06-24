@@ -1,0 +1,26 @@
+uuid: a263a3f1-307d-426a-a334-951c8458d97b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_text_content
+    - paragraphs.paragraphs_type.lesson_text
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: kmeoLMmNmKl8PZd8ca2XNaSSDoth_S4CON-SCGEFrJ4
+id: paragraph.lesson_text.field_lesson_text_content
+field_name: field_lesson_text_content
+entity_type: paragraph
+bundle: lesson_text
+label: Texto
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - minimal_html
+field_type: text_long

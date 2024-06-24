@@ -1,0 +1,11 @@
+uuid: f006e7a6-5202-49fb-b500-6426e51e4f04
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WyJJOaSgTD9oIVC9XgsobyWqqgrwM_M3b_O89YQW10Y
+name: 'Course category'
+vid: course_category
+description: null
+weight: 0
+new_revision: false

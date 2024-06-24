@@ -1,0 +1,23 @@
+uuid: 903cc916-40be-4169-89b0-80dc884cb3c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+_core:
+  default_config_hash: V7SSR3T6qJ_1YaxpDde0Fxf6YR5X6C1SMNgGmMbOarA
+id: node.field_module_lesson_content
+field_name: field_module_lesson_content
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 678a9f8f-531c-447c-a849-64add1b050ba
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -44
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/image-full-width.png'
+_core:
+  default_config_hash: yFEzXnohEWauCy62F4IijtUkfXsfsz206-78TNm4qF8
+id: lesson_image_wide
+label: 'Block: Image (full width)'
+icon_uuid: null
+icon_default: null
+description: 'Block with full width image & caption.'
+behavior_plugins: {  }

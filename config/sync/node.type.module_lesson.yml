@@ -1,0 +1,13 @@
+uuid: ccf86357-3289-4602-aba2-8d76f2cac60e
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LT-NspRN2IVjT9At4XO_BOrJ2PrVbSzqGngeWyGlqfo
+name: Lição
+type: module_lesson
+description: 'A learning unit of the module with content addressing a specific bit of the course.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

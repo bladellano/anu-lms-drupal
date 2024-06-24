@@ -1,0 +1,23 @@
+uuid: a84b4ca5-6b4d-4902-a2f1-a58a51c10076
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -40
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/resource.png'
+_core:
+  default_config_hash: jc4SO_ZzxPMJN9aFprHRfFCOos8OggPqrtakAKu80zU
+id: lesson_resource
+label: 'Block: Resource'
+icon_uuid: null
+icon_default: null
+description: 'Block with a downloadable file (usually a document, presentation or PDF).'
+behavior_plugins: {  }

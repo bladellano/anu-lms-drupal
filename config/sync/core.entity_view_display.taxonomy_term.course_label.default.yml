@@ -1,0 +1,33 @@
+uuid: a2e0b95b-dcaa-46a3-840a-f5dd48fe45bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.course_label.field_course_label_color
+    - taxonomy.vocabulary.course_label
+  module:
+    - options
+    - text
+_core:
+  default_config_hash: gmZw00qjwT_13xho9Dho_4PZ6-AXNTVc_bTNOnXqHds
+id: taxonomy_term.course_label.default
+targetEntityType: taxonomy_term
+bundle: course_label
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_course_label_color:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: ed5a4e3f-02b0-45e9-a43b-789fa4f74ec1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -37
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/text.png'
+_core:
+  default_config_hash: A7rv5kCt1giK-yDmkGkcCW_H62oXDVo1tvKn1SQ8nX4
+id: lesson_text
+label: 'Block: Text'
+icon_uuid: null
+icon_default: null
+description: 'Block with formatted text.'
+behavior_plugins: {  }

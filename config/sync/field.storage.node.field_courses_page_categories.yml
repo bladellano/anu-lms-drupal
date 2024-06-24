@@ -1,0 +1,22 @@
+uuid: 4667372d-52aa-4fe1-af96-013ad4bb72c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: ZpWsCUewsMMbIDRzRz4xUwbP8QggPW8coCkAd9RZDXE
+id: node.field_courses_page_categories
+field_name: field_courses_page_categories
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

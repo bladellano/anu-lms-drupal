@@ -1,0 +1,40 @@
+uuid: 289de676-4303-4aec-982c-5d70a24a9db0
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.table
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: iNyB9Z-Pd4q7CBFFii9fGLcty2ItzyMyjt_Ca_arSxI
+format: table
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - table
+      - '-'
+      - bold
+      - underline
+      - italic
+      - superscript
+      - '-'
+      - bulletedList
+      - numberedList
+      - '|'
+      - link
+      - '-'
+      - removeFormat
+      - sourceEditing
+  plugins:
+    ckeditor5_list:
+      properties:
+        reversed: false
+        startIndex: false
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<a hreflang target>'
+image_upload:
+  status: false

@@ -1,0 +1,21 @@
+uuid: a380c853-11b0-4089-965e-7bba89f19609
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: Z48Zg62tDwtFyCb3IyPj8Es7bMZDU-VPd4lsHexZrUc
+id: paragraph.field_lesson_img_list_item_text
+field_name: field_lesson_img_list_item_text
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

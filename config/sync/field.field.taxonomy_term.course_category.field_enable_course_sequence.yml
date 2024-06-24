@@ -1,0 +1,25 @@
+uuid: 614c3bad-5099-4f10-ac1a-4e33355d965a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_enable_course_sequence
+    - taxonomy.vocabulary.course_category
+_core:
+  default_config_hash: NIwgEdGIyJcsJRHioiesRqNCdzDvyWJQJDMiydHRXNk
+id: taxonomy_term.course_category.field_enable_course_sequence
+field_name: field_enable_course_sequence
+entity_type: taxonomy_term
+bundle: course_category
+label: 'Courses should be completed sequentially in order of weight'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desligado
+field_type: boolean

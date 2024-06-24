@@ -1,0 +1,11 @@
+uuid: dec036cd-20c4-4e43-ad97-444e90b1adf5
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4KucZa3CNCm1dXW30B9sFZeywRIIAoSkdN73lPES5nk
+name: 'Course label'
+vid: course_label
+description: null
+weight: 0
+new_revision: false

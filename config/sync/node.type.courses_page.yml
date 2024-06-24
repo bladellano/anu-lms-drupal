@@ -1,0 +1,13 @@
+uuid: e292e32e-c9d6-44a9-9e98-6c236e6708ca
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ja3tIOT-cnXApc9k_SSHfAlFCodVuvXAThQ8DzsNCAk
+name: 'Courses page [DEPRECATED]'
+type: courses_page
+description: 'Content page that aggregates and displays courses.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

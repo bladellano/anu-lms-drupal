@@ -4,7 +4,7 @@ langcode: pt-br
 courses_page_labels: 'Courses page|Courses pages'
 courses_page_label_plural: 'Courses pages'
 course_labels: Course|Courses
-course_label_plural: Courses
+course_label_plural: Cursos
 lesson_labels: Lesson|Lessons
 lesson_label_plural: Lessons
 assessment_labels: Quiz|Quizzes

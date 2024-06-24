@@ -1,0 +1,25 @@
+uuid: 66e2a316-42e7-4a4b-bcfb-4ac1278cbe33
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.courses_page.field_courses_content
+    - node.type.courses_page
+  module:
+    - user
+_core:
+  default_config_hash: HFgcXfpJsYK9zaDbV-TM2BiJ2OvniUvkTqyJgvtWZ74
+id: node.courses_page.teaser
+targetEntityType: node
+bundle: courses_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_courses_content: true
+  langcode: true

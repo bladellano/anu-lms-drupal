@@ -1,0 +1,21 @@
+uuid: a5a03814-30fa-4df4-9b60-48ce340f67d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: w1SrE_JQaolRsaYeYSNWef98Xtjpo9_wkLXsa0ozR7o
+id: paragraph.field_lesson_table_content
+field_name: field_lesson_table_content
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

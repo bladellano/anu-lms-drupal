@@ -1,0 +1,22 @@
+uuid: bbaa1f84-db17-4728-9653-908c45254ee4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+_core:
+  default_config_hash: tkY9AzV72KSQlqqttrEdrRB-9FTmjnblVAqTCBSHyXk
+id: paragraph.field_module_lessons
+field_name: field_module_lessons
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

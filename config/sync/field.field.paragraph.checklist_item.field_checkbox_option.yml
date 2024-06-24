@@ -1,0 +1,26 @@
+uuid: 9eae4ef6-402e-4972-a64c-3e17a8109e0b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_checkbox_option
+    - paragraphs.paragraphs_type.checklist_item
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: vz9uKBkb9O4oSicSaljXqNO_VFDgmAaEnXjg2dsLNUk
+id: paragraph.checklist_item.field_checkbox_option
+field_name: field_checkbox_option
+entity_type: paragraph
+bundle: checklist_item
+label: Opção
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - minimal_html
+field_type: text_long

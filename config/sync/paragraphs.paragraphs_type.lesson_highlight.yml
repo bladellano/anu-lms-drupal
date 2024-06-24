@@ -1,0 +1,23 @@
+uuid: 7572a8b4-e936-46e9-9b4a-a19fbab92ff7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -48
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/highlight-full-width.png'
+_core:
+  default_config_hash: vH7Rk_X-hyTL7UIR67zlgcsvm9_KhyrAVDHaxoPmw4c
+id: lesson_highlight
+label: 'Block: Highlighted text (full width)'
+icon_uuid: null
+icon_default: null
+description: 'Highlighted block with formatted text and heading.'
+behavior_plugins: {  }

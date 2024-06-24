@@ -1,0 +1,13 @@
+uuid: d325179e-5acd-4af0-ad52-029b5bae8a82
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: CL4x9A2SIBDOWeaJIovcJ2iHyyWRidCRvlOpIuWyiBw
+id: node.embedded
+label: Embutido
+description: ''
+targetEntityType: node
+cache: true

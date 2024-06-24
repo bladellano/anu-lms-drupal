@@ -1,0 +1,27 @@
+uuid: 1b596777-1145-40a5-aa47-25220c9ec9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lesson_footnotes.field_lesson_footnotes_content
+    - paragraphs.paragraphs_type.lesson_footnotes
+  module:
+    - text
+_core:
+  default_config_hash: Yopn2tJP3SVNPDnQLSkFoj8kFl3pzje_QbWYrPvnP5o
+id: paragraph.lesson_footnotes.default
+targetEntityType: paragraph
+bundle: lesson_footnotes
+mode: default
+content:
+  field_lesson_footnotes_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

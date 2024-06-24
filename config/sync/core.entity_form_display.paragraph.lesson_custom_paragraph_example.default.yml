@@ -1,0 +1,25 @@
+uuid: 670eb7e4-ba88-4e4b-9b52-7d2e1804aaac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lesson_custom_paragraph_example.field_example_field
+    - paragraphs.paragraphs_type.lesson_custom_paragraph_example
+_core:
+  default_config_hash: RXwr80RB_E3jxGPx5olwuBQJM-zl6_G0Nej9KBo36Wg
+id: paragraph.lesson_custom_paragraph_example.default
+targetEntityType: paragraph
+bundle: lesson_custom_paragraph_example
+mode: default
+content:
+  field_example_field:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

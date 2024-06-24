@@ -1,0 +1,31 @@
+uuid: bb7e691b-e9db-4bf5-a485-c53b19c28cb2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_label
+    - node.type.course
+    - taxonomy.vocabulary.course_label
+_core:
+  default_config_hash: XvPS0FOv41mi5diLZkJHQ66b_fj5aJYyGi7xgRtNqvE
+id: node.course.field_course_label
+field_name: field_course_label
+entity_type: node
+bundle: course
+label: Rótulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      course_label: course_label
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

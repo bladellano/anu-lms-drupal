@@ -1,0 +1,21 @@
+uuid: 473718e2-db70-45bd-bc89-ff96b23f528c
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: NydanKbdlC8YmavW1Qd-LEdCd9-J7nKyycdXlDwu2vg
+id: node.field_course_finish_button
+field_name: field_course_finish_button
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

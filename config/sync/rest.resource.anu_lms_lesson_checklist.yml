@@ -1,0 +1,21 @@
+uuid: 514cd63a-f35e-447e-91ae-e5f59884eb5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - anu_lms
+    - serialization
+    - user
+_core:
+  default_config_hash: vJMpBvmnXFt9ww8louHtkVMpMOm4Wp6n0GTkmEUhENI
+id: anu_lms_lesson_checklist
+plugin_id: anu_lms_lesson_checklist
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

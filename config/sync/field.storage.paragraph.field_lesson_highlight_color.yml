@@ -1,0 +1,35 @@
+uuid: 500a9bfc-4da6-445f-b454-873a62e58381
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: '-_EHlBs2i5n8osoVjLr2VZoV6BDX-qWbOWxaStglqnY'
+id: paragraph.field_lesson_highlight_color
+field_name: field_lesson_highlight_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: yellow
+      label: Amarelo
+    -
+      value: blue
+      label: Azul
+    -
+      value: purple
+      label: Roxo
+    -
+      value: green
+      label: Verde
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

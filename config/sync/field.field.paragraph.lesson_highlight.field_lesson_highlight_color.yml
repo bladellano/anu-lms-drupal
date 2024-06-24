@@ -1,0 +1,25 @@
+uuid: 96ce21ba-8762-4b96-b70c-aa29aac84ca9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_highlight_color
+    - paragraphs.paragraphs_type.lesson_highlight
+  module:
+    - options
+_core:
+  default_config_hash: BFmUR_cF8h7hyOdWLCIR5uV0fvLWByP1_-QxHnmJrqs
+id: paragraph.lesson_highlight.field_lesson_highlight_color
+field_name: field_lesson_highlight_color
+entity_type: paragraph
+bundle: lesson_highlight
+label: Cor
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: yellow
+default_value_callback: ''
+settings: {  }
+field_type: list_string

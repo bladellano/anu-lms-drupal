@@ -1,0 +1,17 @@
+uuid: 7aee8eaf-584b-4537-9221-9ad4d7dffeb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lesson_divider.field_lesson_divider_type
+    - paragraphs.paragraphs_type.lesson_divider
+_core:
+  default_config_hash: hArWpLjqlC3jaOQvpAD74ITwyZmnD6wXIvC8WIo0KG8
+id: paragraph.lesson_divider.default
+targetEntityType: paragraph
+bundle: lesson_divider
+mode: default
+content: {  }
+hidden:
+  field_lesson_divider_type: true
+  search_api_excerpt: true

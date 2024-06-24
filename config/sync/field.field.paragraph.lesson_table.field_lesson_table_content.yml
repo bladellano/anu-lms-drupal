@@ -1,0 +1,26 @@
+uuid: d18d2b0e-e47a-4435-bfe0-786b99993287
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_table_content
+    - paragraphs.paragraphs_type.lesson_table
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: 1A_rdT5n0Z7rmiR98NNGjmJV40s9XKRVuj6tnlL6SsA
+id: paragraph.lesson_table.field_lesson_table_content
+field_name: field_lesson_table_content
+entity_type: paragraph
+bundle: lesson_table
+label: Tabela
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - table
+field_type: text_long

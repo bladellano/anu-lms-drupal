@@ -1,0 +1,72 @@
+uuid: 89885cd2-19cf-45b0-8781-d0ac360e4e8e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - eck.eck_type.lesson_checklist_result.lesson_checklist_result
+    - field.field.lesson_checklist_result.lesson_checklist_result.field_checklist_paragraph
+    - field.field.lesson_checklist_result.lesson_checklist_result.field_checklist_selected_options
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 2zAaEgJg6f0xjsLTi593Khy9KTr7Nb18S1aDjSNF3s4
+id: lesson_checklist_result.lesson_checklist_result.default
+targetEntityType: lesson_checklist_result
+bundle: lesson_checklist_result
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_checklist_paragraph:
+    type: entity_reference_paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Parágrafo
+      title_plural: Parágrafos
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+  field_checklist_selected_options:
+    type: entity_reference_paragraphs
+    weight: 1
+    region: content
+    settings:
+      title: Parágrafo
+      title_plural: Parágrafos
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

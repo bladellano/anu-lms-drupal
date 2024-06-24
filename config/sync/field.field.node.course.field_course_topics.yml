@@ -1,0 +1,31 @@
+uuid: d321091f-899f-4bcf-b247-c1a2c7eadfac
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_topics
+    - node.type.course
+    - taxonomy.vocabulary.course_topics
+_core:
+  default_config_hash: Nu8y1M2jPFTo8aSXK4qQuzh04maT6Zruodf7dTa_xRI
+id: node.course.field_course_topics
+field_name: field_course_topics
+entity_type: node
+bundle: course
+label: Tópicos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      course_topics: course_topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

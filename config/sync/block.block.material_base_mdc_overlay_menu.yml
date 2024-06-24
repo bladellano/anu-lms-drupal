@@ -1,5 +1,5 @@
 uuid: d016d162-ea04-4fc2-8acd-317731edb784
-langcode: en
+langcode: pt-br
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'Navegação principal'
   label_display: '0'
   provider: system
   level: 1

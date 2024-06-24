@@ -1,0 +1,37 @@
+uuid: a1144818-a41b-4686-9378-47f4b075dbe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lesson_image.field_lesson_image_caption
+    - field.field.paragraph.lesson_image.field_lesson_image_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.lesson_image
+  module:
+    - image
+_core:
+  default_config_hash: 74KwaUyLb3szcTqUAwnXjTuZoEyZ7Ly_2Mlsd4_6G3Q
+id: paragraph.lesson_image.default
+targetEntityType: paragraph
+bundle: lesson_image
+mode: default
+content:
+  field_lesson_image_caption:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_lesson_image_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

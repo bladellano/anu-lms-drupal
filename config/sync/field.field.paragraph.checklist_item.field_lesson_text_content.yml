@@ -1,0 +1,26 @@
+uuid: a65a7c29-93de-4093-927d-f0193aa9863f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_text_content
+    - paragraphs.paragraphs_type.checklist_item
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: 6KJ0ImxJI2KFjA5XmlcyfsL0BazvKz_FhYmoDBb_PeA
+id: paragraph.checklist_item.field_lesson_text_content
+field_name: field_lesson_text_content
+entity_type: paragraph
+bundle: checklist_item
+label: Descrição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - minimal_html
+field_type: text_long

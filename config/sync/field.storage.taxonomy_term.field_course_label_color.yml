@@ -1,0 +1,41 @@
+uuid: 78f6844f-c326-4d56-8840-274272aa31b8
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+_core:
+  default_config_hash: oEtzwItHlDM4mILVoS3oMM_QFDUNSku_1WJmhULPFIE
+id: taxonomy_term.field_course_label_color
+field_name: field_course_label_color
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: yellow
+      label: Amarelo
+    -
+      value: grey
+      label: Grey
+    -
+      value: green
+      label: Verde
+    -
+      value: purple
+      label: Roxo
+    -
+      value: blue
+      label: Azul
+    -
+      value: red
+      label: Vermelho
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

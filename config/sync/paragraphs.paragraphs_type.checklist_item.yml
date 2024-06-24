@@ -1,0 +1,12 @@
+uuid: d12a9279-167f-4e7b-a200-b554ab8520ef
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hmLr4B-rq7qLwc0dAc4okgXSTjtW8eiRkLnlRdlBz_Y
+id: checklist_item
+label: 'Checklist item'
+icon_uuid: null
+icon_default: null
+description: 'Individual item of checklist block.'
+behavior_plugins: {  }

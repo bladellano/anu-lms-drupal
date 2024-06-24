@@ -1,0 +1,11 @@
+uuid: 3ef32b4f-ac6a-4684-b151-c3a74b3ed5f4
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N7xnaoUORNNRZxjC1AXMuidLS3WfYKJCJkCXhSgeTqM
+name: 'Course topics'
+vid: course_topics
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,23 @@
+uuid: 5800bcb4-f6ce-4ebe-9357-2db66d2f6566
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -38
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/table.png'
+_core:
+  default_config_hash: PlD0wMVtCKAhUKXqi-KimpVhBvbMO1e_WJyaYoAua84
+id: lesson_table
+label: 'Block: Table'
+icon_uuid: null
+icon_default: null
+description: 'Block designed for display of content in tables.'
+behavior_plugins: {  }

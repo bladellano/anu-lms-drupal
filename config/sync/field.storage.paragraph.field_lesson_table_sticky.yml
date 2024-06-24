@@ -1,0 +1,20 @@
+uuid: 7a870c69-fa05-4703-aac9-c00d35a59d95
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: JrDzfegL4NrW0dl_o29QOQDrIVB8ZDUNEDC02WjFpL8
+id: paragraph.field_lesson_table_sticky
+field_name: field_lesson_table_sticky
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

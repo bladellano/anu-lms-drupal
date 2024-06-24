@@ -1,0 +1,12 @@
+uuid: ab98bfed-df8a-4da9-8da2-4b97c8bd44d2
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jA1L3NKsXq58qf9e16yaFaHomQu4u8W2ilWVYHbCBn0
+id: course_category
+label: 'Course category'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph with categories of courses presented on the courses page.'
+behavior_plugins: {  }

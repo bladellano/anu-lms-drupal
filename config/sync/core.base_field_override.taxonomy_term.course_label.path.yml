@@ -1,0 +1,22 @@
+uuid: 75cbe850-80a9-4004-8418-d3ea320e05c6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.course_label
+  module:
+    - path
+_core:
+  default_config_hash: QML9Ddf4N3RXDhGDao7DrsnoFX_InsSOezoKotpxcVs
+id: taxonomy_term.course_label.path
+field_name: path
+entity_type: taxonomy_term
+bundle: course_label
+label: 'Apelido de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

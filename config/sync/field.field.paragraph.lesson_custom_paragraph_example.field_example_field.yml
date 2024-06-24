@@ -1,0 +1,21 @@
+uuid: 6aaa2268-8b87-4e11-972e-2a0656ee4125
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_example_field
+    - paragraphs.paragraphs_type.lesson_custom_paragraph_example
+_core:
+  default_config_hash: KOIWmb83IC7VWoxG9GKzFFIK0U7z3qPdi57FORPQ-fA
+id: paragraph.lesson_custom_paragraph_example.field_example_field
+field_name: field_example_field
+entity_type: paragraph
+bundle: lesson_custom_paragraph_example
+label: 'Example field'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

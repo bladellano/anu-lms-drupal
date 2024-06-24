@@ -1,0 +1,23 @@
+uuid: 31d9094e-6c8b-4454-ae5f-9626bd2de6df
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -54
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/audio.png'
+_core:
+  default_config_hash: EqFEqp_lbnwXTKhPK1MhW1dDMCXP7fNvVvVKMUafFqM
+id: lesson_audio
+label: 'Block: Audio'
+icon_uuid: null
+icon_default: null
+description: 'Block with a playable audio file.'
+behavior_plugins: {  }

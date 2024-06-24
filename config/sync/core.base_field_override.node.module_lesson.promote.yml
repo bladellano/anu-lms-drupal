@@ -1,0 +1,24 @@
+uuid: c138a98e-5c32-4c16-bd1c-e5d79d770a66
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.module_lesson
+_core:
+  default_config_hash: DDKyDhSLTyhjo9ZeFh2YhJFFDl9PmdGk_CkYl1CWin0
+id: node.module_lesson.promote
+field_name: promote
+entity_type: node
+bundle: module_lesson
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desligado
+field_type: boolean

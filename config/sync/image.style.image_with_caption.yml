@@ -1,0 +1,17 @@
+uuid: 0791b6a5-1b4b-457d-aff9-e61d247aa9c1
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2ftLhdjWa28TQKmALbhIUha9-b8me7tBP6ajbKjAoho
+name: image_with_caption
+label: '[ANU LMS] Paragraph: Image with caption'
+effects:
+  def6b67b-f53f-4583-97d8-404aa19a1354:
+    uuid: def6b67b-f53f-4583-97d8-404aa19a1354
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: false

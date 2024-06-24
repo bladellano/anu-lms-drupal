@@ -1,5 +1,5 @@
 uuid: c7c53935-c5a6-46ed-9d92-8829c0433a79
-langcode: en
+langcode: pt-br
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: 'Ações primárias do administrador'
   label_display: '0'
   provider: core
 visibility: {  }

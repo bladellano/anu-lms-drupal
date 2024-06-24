@@ -1,0 +1,29 @@
+uuid: 17778509-06ed-4045-a42b-0c9a8df4a694
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: On3LwrVMEToWFk4euNZEai0nsQpkpuLWdGGt7GodnMw
+id: paragraph.field_lesson_divider_type
+field_name: field_lesson_divider_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: simple
+      label: simples
+    -
+      value: numeric
+      label: numérico
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
