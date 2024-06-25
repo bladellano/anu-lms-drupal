@@ -12,7 +12,7 @@ dependencies:
     - field.field.node.course.field_course_module
     - field.field.node.course.field_course_topics
     - field.field.node.course.field_weight
-    - image.style.thumbnail
+    - image.style.course_preview
     - node.type.course
   module:
     - field_group
@@ -125,7 +125,7 @@ content:
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: course_preview
     third_party_settings: {  }
   field_course_label:
     type: options_select

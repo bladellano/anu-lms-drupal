@@ -1,13 +1,13 @@
 _core:
   default_config_hash: QOEBZriO4vptbz5qn302tge394g7bOcetu_s76fEL48
 langcode: pt-br
-courses_page_labels: 'Courses page|Courses pages'
-courses_page_label_plural: 'Courses pages'
-course_labels: Course|Courses
+courses_page_labels: 'Página de cursos|Páginas de cursos'
+courses_page_label_plural: 'Páginas de cursos'
+course_labels: Curso|Cursos
 course_label_plural: Cursos
 lesson_labels: Lição|Lições
 lesson_label_plural: Lições
-assessment_labels: Quiz|Quizzes
-assessment_label_plural: Quizzes
-module_labels: Module|Modules
+assessment_labels: Questionário|Testes
+assessment_label_plural: Testes
+module_labels: Módulo|Módulos
 module_label_plural: Módulos

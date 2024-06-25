@@ -2,9 +2,9 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: pt-br
 uuid: 410ff80c-8d64-454f-8ffa-595e74e1d74f
-name: 'Aprendendo ANU LMS'
+name: 'Aprendendo com ANU LMS'
 mail: bladellano@gmail.com
-slogan: "Comemore seu aniversário com a gente, porque 'não contavam com minha astúcia' para fazer sua festa inesquecível!"
+slogan: 'Domine DevOps, Frontend e Backend: Cursos completos para sua carreira tech decolar!'
 page:
   403: ''
   404: ''
