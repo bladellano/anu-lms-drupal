@@ -5,6 +5,7 @@ Este projeto utiliza o módulo Anu LMS para criar um sistema de gerenciamento de
 ## Visão Geral
 
 Anu LMS é um módulo contribuído para Drupal que fornece funcionalidades robustas para a criação e gerenciamento de cursos online. Ele permite a criação de cursos, lições, questionários e muito mais, proporcionando uma plataforma completa de aprendizado online.
+![vendas](./.docs/anulms-demo-content.png)  
 
 ## Requisitos
 
@@ -32,18 +33,12 @@ Anu LMS é um módulo contribuído para Drupal que fornece funcionalidades robus
 - **Questionários**: Crie questionários para avaliar o progresso dos alunos.
 - **Certificados**: Gere certificados de conclusão para os alunos.
 
-## Contribuição
+## Documentação Resumida
 
-Se desejar contribuir com este projeto, sinta-se à vontade para fazer um fork do repositório e enviar pull requests. Também são bem-vindos relatórios de bugs e sugestões de melhorias.
+- Como criar um Curso [PDF](./.docs/como-criar-um-curso.pdf)
+
+- Customizando ANU LMS [PDF](./.docs/como-criar-um-curso.pdf)
 
 ## Suporte
 
 Para mais informações e suporte, visite a [página oficial do Anu LMS](https://www.drupal.org/docs/contributed-modules/anu-lms) ou a [seção de issues no Drupal.org](https://www.drupal.org/project/issues/anu_lms).
-
-## Licença
-
-Este projeto é distribuído sob a licença GNU General Public License, versão 2 ou posterior. Veja o arquivo LICENSE.txt para mais detalhes.
-
----
-
-Sinta-se à vontade para adaptar este README conforme necessário para atender às especificidades do seu projeto.

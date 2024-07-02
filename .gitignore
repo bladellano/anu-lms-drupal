@@ -23,6 +23,7 @@ settings.json
 .editorconfig
 
 *.zip
+*.docx
 /web/.csslintrc
 /web/.eslintignore
 /web/.eslintrc.json
