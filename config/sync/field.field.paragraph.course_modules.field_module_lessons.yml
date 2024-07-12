@@ -12,7 +12,7 @@ id: paragraph.course_modules.field_module_lessons
 field_name: field_module_lessons
 entity_type: paragraph
 bundle: course_modules
-label: Lessons
+label: Lições
 description: 'List of subsequent lessons to go through to learn the module.'
 required: false
 translatable: false

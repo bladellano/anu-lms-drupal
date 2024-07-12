@@ -1,0 +1,29 @@
+uuid: cbc265da-120c-43bb-84ae-e554edcb3bd7
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - anu_lms_assessments.assessment_question_result_type.long_answer
+    - core.entity_view_mode.assessment_question_result.embedded
+    - field.field.assessment_question_result.long_answer.field_question_response_long
+_core:
+  default_config_hash: BArkczPi_W8ea7VTpvWs88TVZcunQru5UgB1BPiEF8w
+id: assessment_question_result.long_answer.embedded
+targetEntityType: assessment_question_result
+bundle: long_answer
+mode: embedded
+content:
+  field_question_response_long:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  aqid: true
+  arid: true
+  is_correct: true
+  langcode: true
+  name: true
+  user_id: true

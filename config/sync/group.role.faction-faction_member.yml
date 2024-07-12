@@ -1,0 +1,28 @@
+uuid: 22556fa3-d181-4223-a900-83022f2d6901
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+id: faction-faction_member
+label: 'faction member'
+weight: 103
+admin: false
+scope: individual
+global_role: null
+group_type: faction
+permissions:
+  - 'access group_media overview'
+  - 'access group_node overview'
+  - 'create group_node:article entity'
+  - 'create group_node:course entity'
+  - 'create group_node:module_assessment entity'
+  - 'delete own group_node:article entity'
+  - 'delete own group_node:course entity'
+  - 'leave group'
+  - 'update own group_membership relationship'
+  - 'update own group_node:article entity'
+  - 'update own group_node:course entity'
+  - 'view group'
+  - 'view group_node:article entity'
+  - 'view own unpublished group_node:article entity'

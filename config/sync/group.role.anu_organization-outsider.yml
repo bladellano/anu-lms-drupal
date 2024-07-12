@@ -1,0 +1,16 @@
+uuid: 4d91341f-c4a2-498b-bc9b-655d47a40e43
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+_core:
+  default_config_hash: t9pxIWngYRhQ04VmqthB0F6cfljZ9luEjQUUiLsw5A8
+id: anu_organization-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: individual
+global_role: null
+group_type: anu_organization
+permissions: {  }

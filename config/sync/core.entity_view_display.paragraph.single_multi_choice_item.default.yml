@@ -1,0 +1,25 @@
+uuid: 06794ae3-624d-498f-b2e7-f758c0600601
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_multi_choice_item.field_single_multi_choice_right
+    - field.field.paragraph.single_multi_choice_item.field_single_multi_choice_value
+    - paragraphs.paragraphs_type.single_multi_choice_item
+_core:
+  default_config_hash: enpiupE4f_js-8QpMWrzXMH7SUFYjYV9qk6-fba1018
+id: paragraph.single_multi_choice_item.default
+targetEntityType: paragraph
+bundle: single_multi_choice_item
+mode: default
+content:
+  field_single_multi_choice_value:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_single_multi_choice_right: true
+  search_api_excerpt: true

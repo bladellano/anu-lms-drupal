@@ -1,0 +1,31 @@
+uuid: a3e772b0-f19e-4ef5-9acb-481b8a5253f7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+id: faction-faction_leader
+label: 'faction leader'
+weight: 104
+admin: false
+scope: individual
+global_role: null
+group_type: faction
+permissions:
+  - 'access content overview'
+  - 'access group_media overview'
+  - 'access group_node overview'
+  - 'administer members'
+  - 'delete group'
+  - 'delete group revisions'
+  - 'edit group'
+  - 'leave group'
+  - 'revert group revisions'
+  - 'update own group_membership relationship'
+  - 'view all group revisions'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view group revisions'
+  - 'view group_membership relationship'
+  - 'view latest group version'
+  - 'view own unpublished group'

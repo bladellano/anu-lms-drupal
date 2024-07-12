@@ -1,0 +1,16 @@
+uuid: f25ac7b4-9b5a-4f58-b11f-7681920b3cb4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - rest.resource.assessment_rest_resource
+  module:
+    - anu_lms_assessments
+    - rest
+id: student
+label: Estudante
+weight: 4
+is_admin: null
+permissions:
+  - 'restful post assessment_rest_resource'
+  - 'view published question entities'

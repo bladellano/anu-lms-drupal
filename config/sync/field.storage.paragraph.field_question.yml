@@ -1,0 +1,22 @@
+uuid: 4469ce6e-5922-42c8-a956-a3577ec3b857
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - anu_lms_assessments
+    - paragraphs
+_core:
+  default_config_hash: SW9YY1VoflY8v6nW_bBWN2K5s9dKblLdkNbn4svp0yk
+id: paragraph.field_question
+field_name: field_question
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: assessment_question
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

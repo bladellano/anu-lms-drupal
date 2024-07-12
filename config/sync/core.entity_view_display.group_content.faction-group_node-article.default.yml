@@ -1,0 +1,15 @@
+uuid: 33274478-762e-4f0a-acdb-f72ebbc27c7d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.content_type.faction-group_node-article
+id: group_content.faction-group_node-article.default
+targetEntityType: group_content
+bundle: faction-group_node-article
+mode: default
+content: {  }
+hidden:
+  entity_id: true
+  langcode: true
+  uid: true

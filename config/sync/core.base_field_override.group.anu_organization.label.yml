@@ -1,0 +1,20 @@
+uuid: dcf2efbe-6232-47d1-a9ae-dde822a19ea1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+_core:
+  default_config_hash: teFQ8ed3eOXGZ8TsqtOtM_cuOGF-BQsdWSyvCm3MmtY
+id: group.anu_organization.label
+field_name: label
+entity_type: group
+bundle: anu_organization
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

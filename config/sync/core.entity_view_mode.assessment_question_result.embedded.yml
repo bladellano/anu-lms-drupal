@@ -1,0 +1,13 @@
+uuid: 21cf14b0-e5e2-4515-b5b4-59baf7999368
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - anu_lms_assessments
+_core:
+  default_config_hash: VPlsj5qE0yzyTYCBXjgGX35mOtfQtslu_jNebz_f-G4
+id: assessment_question_result.embedded
+label: Embedded
+description: ''
+targetEntityType: assessment_question_result
+cache: true

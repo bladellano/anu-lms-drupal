@@ -1,0 +1,11 @@
+uuid: fa1945ae-ae82-4c72-a342-b26189c4932f
+langcode: pt-br
+status: true
+dependencies: {  }
+id: faction
+label: Faction
+description: 'Each player is assigned a faction when they register'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

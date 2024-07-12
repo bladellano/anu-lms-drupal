@@ -1,0 +1,8 @@
+uuid: 7ab59f1a-5362-44af-8c01-99d517d3c299
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tqFZ0b41oj02PRuL31C-Obd_i76YE2JIfQ7Vv9gZqHg
+id: short_answer
+label: 'Short answer'

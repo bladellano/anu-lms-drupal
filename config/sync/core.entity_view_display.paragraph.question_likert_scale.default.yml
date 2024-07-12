@@ -1,0 +1,23 @@
+uuid: 7d1521e6-e8c1-452a-bf97-59175a1cf423
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.question_likert_scale.field_question
+    - paragraphs.paragraphs_type.question_likert_scale
+_core:
+  default_config_hash: LtUFPtObzLNvb63PYjrDTwdGY9rrrT4Vhe7ZsgPB-Lc
+id: paragraph.question_likert_scale.default
+targetEntityType: paragraph
+bundle: question_likert_scale
+mode: default
+content:
+  field_question:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

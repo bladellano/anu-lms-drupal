@@ -1,0 +1,17 @@
+uuid: bbeab9a9-e870-4746-a158-4b75dd8e3684
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+    - node.type.article
+  module:
+    - gnode
+    - node
+id: faction-group_node-article
+group_type: faction
+content_plugin: 'group_node:article'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

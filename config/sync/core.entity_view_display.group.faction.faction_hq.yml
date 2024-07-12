@@ -1,0 +1,54 @@
+uuid: b8135853-87d3-47e0-9137-1f7c28f135da
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.group.faction_hq
+    - field.field.group.faction.field_faction_description
+    - field.field.group.faction.field_faction_insignia
+    - field.field.group.faction.field_faction_territory
+    - group.type.faction
+  module:
+    - text
+id: group.faction.faction_hq
+targetEntityType: group
+bundle: faction
+mode: faction_hq
+content:
+  field_faction_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_faction_insignia:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_faction_territory:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  changed: true
+  created: true
+  langcode: true
+  uid: true

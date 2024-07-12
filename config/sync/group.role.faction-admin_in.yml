@@ -1,0 +1,15 @@
+uuid: 6cb2cd6d-b3eb-474c-9c74-03073eb514c3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+    - user.role.administrator
+id: faction-admin_in
+label: Administrador
+weight: 102
+admin: true
+scope: insider
+global_role: administrator
+group_type: faction
+permissions: {  }

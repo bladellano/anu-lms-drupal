@@ -1,0 +1,17 @@
+uuid: d9161ac1-3648-4478-9144-d174be9a5772
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+  module:
+    - user
+_core:
+  default_config_hash: DAHURTju6Y1L6GL2SVVFktcekkqG2H3Sr6_xpyi4KYg
+id: group_content_type_fe06a1151d30b
+group_type: anu_organization
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

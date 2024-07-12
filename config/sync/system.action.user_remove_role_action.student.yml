@@ -1,0 +1,14 @@
+uuid: dd9cd37e-5d88-433b-b676-a90c53194a38
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.student
+  module:
+    - user
+id: user_remove_role_action.student
+label: 'Remover o papel Estudante dos usuários selecionados'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: student

@@ -1,0 +1,22 @@
+uuid: 0465c668-7e18-4a05-8b23-6ecd68fec3dd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.group_content.group_roles
+    - group.content_type.faction-group_membership
+id: group_content.faction-group_membership.group_roles
+field_name: group_roles
+entity_type: group_content
+bundle: faction-group_membership
+label: Papéis
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'group_type:group_role'
+  handler_settings:
+    group_type_id: faction
+field_type: entity_reference

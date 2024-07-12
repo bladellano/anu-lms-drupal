@@ -1,0 +1,19 @@
+uuid: 69ca966a-1505-45f5-8114-3d40e88d664f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+    - media.type.document
+  module:
+    - groupmedia
+    - media
+_core:
+  default_config_hash: gcMySFjAarIUQK2IjCRJbFQnXXajtAowVgdcamMTP3M
+id: group_content_type_27094fd8a185b
+group_type: anu_organization
+content_plugin: 'group_media:document'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

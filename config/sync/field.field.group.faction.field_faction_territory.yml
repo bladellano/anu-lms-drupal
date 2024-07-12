@@ -1,0 +1,29 @@
+uuid: 44fd13a3-0697-468d-bf3c-67b2b2cadd40
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_faction_territory
+    - group.type.faction
+    - taxonomy.vocabulary.tags
+id: group.faction.field_faction_territory
+field_name: field_faction_territory
+entity_type: group
+bundle: faction
+label: 'Faction Territory'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 8dcfdbd2-d8bb-4454-9435-869c3bda4e03
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -32
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/question-single-choice.png'
+_core:
+  default_config_hash: nVgUQGrwN13NZCb_19Hp91V8A355ClElAiqiNS7lyJc
+id: question_single_choice
+label: 'Question: Single choice'
+icon_uuid: null
+icon_default: null
+description: 'Question with list of options which expects only one of the options selected.'
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: cf471eee-6adf-457f-ae64-5ab491c26b27
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.student
+  module:
+    - user
+id: user_add_role_action.student
+label: 'Adiciona o papel Estudante para o(s) usuário(s) selecionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: student

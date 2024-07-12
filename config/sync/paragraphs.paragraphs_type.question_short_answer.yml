@@ -1,0 +1,23 @@
+uuid: 0639b7db-fbee-4852-8b39-f39035e061f7
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -33
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/question-short-answer.png'
+_core:
+  default_config_hash: wqAv_M-Wy26U2sM2deGB5chhBl3xznKeyf3H_SuNLWA
+id: question_short_answer
+label: 'Question: Short answer'
+icon_uuid: null
+icon_default: null
+description: 'Question which expects short answer from a student.'
+behavior_plugins: {  }

@@ -1,0 +1,26 @@
+uuid: 0a6b116e-cf58-44e7-b28c-0f15a4dea9af
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - anu_lms_assessments.assessment_question_type.single_choice
+    - core.entity_view_mode.assessment_question.embedded
+    - field.field.assessment_question.single_choice.field_options
+_core:
+  default_config_hash: XQxNcrJHDid6AMUAU_9KBsjsF61Fy2J-qUfFJwKsBjc
+id: assessment_question.single_choice.embedded
+targetEntityType: assessment_question
+bundle: single_choice
+mode: embedded
+content:
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_options: true
+  langcode: true

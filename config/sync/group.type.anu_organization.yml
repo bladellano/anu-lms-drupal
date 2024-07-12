@@ -1,0 +1,14 @@
+uuid: 21f75fc7-4c18-4186-99dd-58aebc8747dd
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Gyl3qYX-jRFmYKnOBXSGxumZw1IklYD2q538N7Pei9w
+id: anu_organization
+label: Organization
+description: 'Anu LMS organization entity for permissions separation between different groups of learners and teachers.'
+new_revision: true
+creator_membership: false
+creator_wizard: false
+creator_roles:
+  - anu_organization-org_admin

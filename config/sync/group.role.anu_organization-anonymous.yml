@@ -1,0 +1,16 @@
+uuid: 501aa6c7-8b1d-4651-bafa-df6b45dedb24
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+_core:
+  default_config_hash: 7xhRvHaWt4yMdNQs21kPDTxUyO-TQPFou1kNRvLtABw
+id: anu_organization-anonymous
+label: Anônimo
+weight: -102
+admin: false
+scope: individual
+global_role: null
+group_type: anu_organization
+permissions: {  }

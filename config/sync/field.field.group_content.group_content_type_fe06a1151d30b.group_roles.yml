@@ -1,0 +1,24 @@
+uuid: 39cd58f9-060a-4b3c-a958-308b7ceecda9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.group_content.group_roles
+    - group.content_type.group_content_type_fe06a1151d30b
+_core:
+  default_config_hash: De0nUUuZKla3u2C3kYI8JOEwc-PSRAo38FxMimvlxWI
+id: group_content.group_content_type_fe06a1151d30b.group_roles
+field_name: group_roles
+entity_type: group_content
+bundle: group_content_type_fe06a1151d30b
+label: Papéis
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'group_type:group_role'
+  handler_settings:
+    group_type_id: anu_organization
+field_type: entity_reference

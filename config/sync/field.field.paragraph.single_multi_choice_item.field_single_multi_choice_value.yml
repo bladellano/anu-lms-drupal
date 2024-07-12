@@ -1,0 +1,21 @@
+uuid: 41b403d6-eb58-45df-b1c8-37f37aed589b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_single_multi_choice_value
+    - paragraphs.paragraphs_type.single_multi_choice_item
+_core:
+  default_config_hash: urdoPUoojmK3t2P0sGrx946Xfx_bIw7__GmwiT4VBJY
+id: paragraph.single_multi_choice_item.field_single_multi_choice_value
+field_name: field_single_multi_choice_value
+entity_type: paragraph
+bundle: single_multi_choice_item
+label: Option
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

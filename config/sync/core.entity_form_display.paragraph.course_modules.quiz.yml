@@ -1,0 +1,65 @@
+uuid: 45d2b5eb-4f10-4dc4-a322-2f86f55fa519
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.embedded
+    - core.entity_form_mode.paragraph.quiz
+    - field.field.paragraph.course_modules.field_module_assessment
+    - field.field.paragraph.course_modules.field_module_lessons
+    - field.field.paragraph.course_modules.field_module_title
+    - paragraphs.paragraphs_type.course_modules
+  module:
+    - inline_entity_form
+_core:
+  default_config_hash: GGATOxFBt3STqRgqkeU2-c9tetAgcLSBQbHnDq6s-3U
+id: paragraph.course_modules.quiz
+targetEntityType: paragraph
+bundle: course_modules
+mode: quiz
+content:
+  field_module_assessment:
+    type: inline_entity_form_complex
+    weight: 2
+    region: content
+    settings:
+      form_mode: embedded
+      override_labels: true
+      label_singular: quiz
+      label_plural: quizzes
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+  field_module_lessons:
+    type: inline_entity_form_complex
+    weight: 1
+    region: content
+    settings:
+      form_mode: embedded
+      override_labels: true
+      label_singular: lesson
+      label_plural: lessons
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: true
+      revision: false
+    third_party_settings: {  }
+  field_module_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

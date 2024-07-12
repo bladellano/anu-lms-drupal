@@ -1,0 +1,20 @@
+uuid: dfd2f9f0-94a3-402d-8d36-4a1607eea1ef
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - group
+    - media
+id: group.field_faction_insignia
+field_name: field_faction_insignia
+entity_type: group
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

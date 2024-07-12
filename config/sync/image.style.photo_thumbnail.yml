@@ -1,0 +1,15 @@
+uuid: 9567598a-b864-4e03-8f30-d65b943a5771
+langcode: pt-br
+status: true
+dependencies: {  }
+name: photo_thumbnail
+label: Thumbnail
+effects:
+  d29101ef-d432-47fe-a7dc-a823941c319e:
+    uuid: d29101ef-d432-47fe-a7dc-a823941c319e
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      upscale: false

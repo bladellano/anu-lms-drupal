@@ -1,0 +1,38 @@
+uuid: 71ec4ab2-4bbd-4efd-9cc3-4816a459da0e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.content_type.faction-group_node-article
+  module:
+    - path
+id: group_content.faction-group_node-article.default
+targetEntityType: group_content
+bundle: faction-group_node-article
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

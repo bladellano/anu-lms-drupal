@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.node.embedded
+    - field.field.paragraph.course_modules.field_module_assessment
     - field.field.paragraph.course_modules.field_module_lessons
     - field.field.paragraph.course_modules.field_module_title
     - paragraphs.paragraphs_type.course_modules
@@ -41,4 +42,5 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_module_assessment: true
   status: true

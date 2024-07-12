@@ -1,0 +1,19 @@
+uuid: ab31c5af-56c0-4056-a8bb-8bc8832157d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+    - node.type.module_lesson
+  module:
+    - gnode
+    - node
+_core:
+  default_config_hash: MNvy_H7DTqJyn9FF0v4JOxzAXVYBcEUAFyk-7QabFN4
+id: group_content_type_170a27c2b04ca
+group_type: anu_organization
+content_plugin: 'group_node:module_lesson'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

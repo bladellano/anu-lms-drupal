@@ -1,0 +1,29 @@
+uuid: 3b5397f0-dad9-4f9e-99cc-c285366dffd7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_faction_insignia
+    - group.type.faction
+    - media.type.image
+id: group.faction.field_faction_insignia
+field_name: field_faction_insignia
+entity_type: group
+bundle: faction
+label: 'Faction Insignia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

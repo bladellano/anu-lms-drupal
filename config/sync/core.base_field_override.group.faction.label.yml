@@ -1,0 +1,18 @@
+uuid: 8a09df9f-8ed9-4710-90e9-1fea6b11cdce
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+id: group.faction.label
+field_name: label
+entity_type: group
+bundle: faction
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

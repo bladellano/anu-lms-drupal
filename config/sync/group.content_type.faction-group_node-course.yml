@@ -1,0 +1,17 @@
+uuid: 03e68bbc-7efc-4ef4-9369-46476aec7173
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+    - node.type.course
+  module:
+    - gnode
+    - node
+id: faction-group_node-course
+group_type: faction
+content_plugin: 'group_node:course'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

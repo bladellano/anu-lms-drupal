@@ -1,0 +1,43 @@
+uuid: b3b21818-461d-4830-ab84-7a85933eabd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.embedded
+    - field.field.node.module_assessment.field_hide_correct_answers
+    - field.field.node.module_assessment.field_module_assessment_items
+    - field.field.node.module_assessment.field_no_multiple_submissions
+    - node.type.module_assessment
+_core:
+  default_config_hash: 8JIP6xo9PurUcs_O40Az87s2SXES70hpy4b9OLbEG7I
+id: node.module_assessment.embedded
+targetEntityType: node
+bundle: module_assessment
+mode: embedded
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_hide_correct_answers: true
+  field_module_assessment_items: true
+  field_no_multiple_submissions: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
+  url_redirects: true

@@ -1,0 +1,13 @@
+uuid: 5add6476-1794-4899-a690-2ece613caee1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 1URE2O889xSnU5ohySTjQWF6m2YWtjTyETJcV2TAwmM
+id: node.assessment
+label: Assessment
+description: ''
+targetEntityType: node
+cache: true

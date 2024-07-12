@@ -1,0 +1,20 @@
+uuid: 75f826b4-3197-4509-805d-ffebe7c8982e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - anu_lms_assessments
+    - serialization
+    - user
+_core:
+  default_config_hash: kvLVKrxsP7XeRcpHjVGKJoFkjIr3F5prq3TCwN8M6PQ
+id: assessment_rest_resource
+plugin_id: assessment_rest_resource
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

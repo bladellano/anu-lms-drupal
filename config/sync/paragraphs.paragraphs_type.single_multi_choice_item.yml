@@ -1,0 +1,12 @@
+uuid: 9f366bd0-bfe0-4b1c-9299-f5acb982446c
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RaYga5g0NkzCOxEvPbAMpJjt5OHZgI8_NruilGCExNY
+id: single_multi_choice_item
+label: 'Single/Multi-choice item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

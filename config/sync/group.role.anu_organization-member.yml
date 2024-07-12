@@ -1,0 +1,21 @@
+uuid: 9c943a11-4224-44e7-9bae-bcfab3366c0f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.anu_organization
+_core:
+  default_config_hash: eZ_VlOJML19wpdgAt5pglRCePQlHTjEfiyehYeZOU28
+id: anu_organization-member
+label: Member
+weight: -100
+admin: false
+scope: individual
+global_role: null
+group_type: anu_organization
+permissions:
+  - 'view group_media:document entity'
+  - 'view group_node:course entity'
+  - 'view group_node:module entity'
+  - 'view group_node:module_assessment entity'
+  - 'view group_node:module_lesson entity'

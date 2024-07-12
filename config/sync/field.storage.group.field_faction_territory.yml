@@ -1,0 +1,20 @@
+uuid: edc9dbda-cde8-4076-821a-f723a2bb7ba9
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - group
+    - taxonomy
+id: group.field_faction_territory
+field_name: field_faction_territory
+entity_type: group
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

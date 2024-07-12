@@ -1,0 +1,15 @@
+uuid: 50e7a490-10de-42dc-8e61-d12a3acc3458
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - group.type.faction
+    - user.role.administrator
+id: faction-admin_out
+label: Administrador
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: faction
+permissions: {  }

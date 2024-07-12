@@ -1,0 +1,24 @@
+uuid: 289b2584-5198-41f4-8514-752113479cda
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.group_content.faction-group_membership.group_roles
+    - group.content_type.faction-group_membership
+id: group_content.faction-group_membership.default
+targetEntityType: group_content
+bundle: faction-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  langcode: true
+  uid: true
