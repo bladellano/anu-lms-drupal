@@ -1,0 +1,10 @@
+uuid: 12cab0af-abf7-458f-b910-ae16255ce762
+langcode: pt-br
+status: true
+dependencies: {  }
+id: certificate
+label: Certificado
+icon_uuid: null
+icon_default: null
+description: 'Pork belly andouille pariatur officia porchetta exercitation'
+behavior_plugins: {  }

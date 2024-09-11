@@ -1,0 +1,11 @@
+uuid: 714ec2df-18e1-422b-a07b-f47cdafcd905
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - group
+id: group.token
+label: Token
+description: ''
+targetEntityType: group
+cache: true

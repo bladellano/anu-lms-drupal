@@ -1,0 +1,24 @@
+uuid: 458018bb-accd-4df2-9346-fdd444c4c16d
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: e6pToqtkU7FILTjzaSo3JXE6TEYmqp8wVBsnHquZIjg
+id: course
+label: Curso
+type: 'canonical_entities:node'
+pattern: 'course/[node:title]'
+selection_criteria:
+  b2972598-2a3f-47a4-9b1f-7c0d5222bf69:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b2972598-2a3f-47a4-9b1f-7c0d5222bf69
+    context_mapping:
+      node: node
+    bundles:
+      course: course
+selection_logic: and
+weight: -5
+relationships: {  }

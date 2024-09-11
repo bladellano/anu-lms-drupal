@@ -1,0 +1,9 @@
+name: 'Geração de Certificados para Cursos e Módulos no Anu LMS'
+type: module
+description: 'Este módulo personalizado foi desenvolvido para capturar eventos no ANU LMS e gerar certificados automaticamente.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:anu_lms
+  - drupal:pdf_generator
+version: 1.0

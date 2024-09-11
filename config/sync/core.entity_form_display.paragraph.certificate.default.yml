@@ -1,0 +1,42 @@
+uuid: 8d631909-435e-44b3-8cb3-8e9d1f8423ca
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.certificate.field_certificate_link
+    - field.field.paragraph.certificate.field_completion_date
+    - field.field.paragraph.certificate.field_course_name
+    - paragraphs.paragraphs_type.certificate
+  module:
+    - datetime
+    - link
+id: paragraph.certificate.default
+targetEntityType: paragraph
+bundle: certificate
+mode: default
+content:
+  field_certificate_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_completion_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_course_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

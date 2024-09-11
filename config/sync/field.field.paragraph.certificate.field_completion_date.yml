@@ -1,0 +1,21 @@
+uuid: 784580be-0190-4d90-b798-77e57b99aa21
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_completion_date
+    - paragraphs.paragraphs_type.certificate
+  module:
+    - datetime
+id: paragraph.certificate.field_completion_date
+field_name: field_completion_date
+entity_type: paragraph
+bundle: certificate
+label: 'Data de Conclusão'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

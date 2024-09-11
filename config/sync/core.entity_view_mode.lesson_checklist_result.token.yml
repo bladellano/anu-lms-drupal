@@ -1,0 +1,11 @@
+uuid: 772fd342-8121-4473-8bf2-eba901ed069e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - eck
+id: lesson_checklist_result.token
+label: Token
+description: ''
+targetEntityType: lesson_checklist_result
+cache: true

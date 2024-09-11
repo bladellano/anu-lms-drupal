@@ -1,0 +1,10 @@
+<ul>
+  {% for certificate in certificates %}
+    <li>
+      <strong>{{ certificate.course_name }}</strong> - {{ certificate.completion_date }}<br>
+      <a href="{{ certificate.certificate_link }}" target="_blank">{{ certificate.certificate_link_title }}</a>
+    </li>
+  {% else %}
+    <li>Nenhum certificado disponível.</li>
+  {% endfor %}
+</ul>

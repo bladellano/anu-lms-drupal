@@ -17,6 +17,8 @@
 /.idea/
 /.vscode/
 
+/private_files
+
 !web/autoload.php
 .env
 settings.json

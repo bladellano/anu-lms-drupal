@@ -1,0 +1,118 @@
+uuid: eb7d23df-28bc-4a98-8310-d73e76067cbb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_certificates
+    - paragraphs.paragraphs_type.certificate
+  module:
+    - entity_reference_revisions
+    - user
+id: user.user.field_certificates
+field_name: field_certificates
+entity_type: user
+bundle: user
+label: Certificados
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      certificate: certificate
+    negate: 0
+    target_bundles_drag_drop:
+      certificate:
+        weight: 31
+        enabled: true
+      checklist_item:
+        weight: 32
+        enabled: false
+      course_category:
+        weight: 33
+        enabled: false
+      course_modules:
+        weight: 34
+        enabled: false
+      lesson_audio:
+        weight: 35
+        enabled: false
+      lesson_checklist:
+        weight: 36
+        enabled: false
+      lesson_custom_paragraph_example:
+        weight: 37
+        enabled: false
+      lesson_divider:
+        weight: 38
+        enabled: false
+      lesson_embedded_video:
+        weight: 39
+        enabled: false
+      lesson_footnotes:
+        weight: 40
+        enabled: false
+      lesson_heading:
+        weight: 41
+        enabled: false
+      lesson_highlight:
+        weight: 42
+        enabled: false
+      lesson_highlight_marker:
+        weight: 43
+        enabled: false
+      lesson_image:
+        weight: 44
+        enabled: false
+      lesson_image_thumbnail:
+        weight: 45
+        enabled: false
+      lesson_image_wide:
+        weight: 46
+        enabled: false
+      lesson_img_list:
+        weight: 47
+        enabled: false
+      lesson_img_list_item:
+        weight: 48
+        enabled: false
+      lesson_list:
+        weight: 49
+        enabled: false
+      lesson_resource:
+        weight: 50
+        enabled: false
+      lesson_section:
+        weight: 51
+        enabled: false
+      lesson_table:
+        weight: 52
+        enabled: false
+      lesson_text:
+        weight: 53
+        enabled: false
+      question_likert_scale:
+        weight: 54
+        enabled: false
+      question_long_answer:
+        weight: 55
+        enabled: false
+      question_multi_choice:
+        weight: 56
+        enabled: false
+      question_scale:
+        weight: 57
+        enabled: false
+      question_short_answer:
+        weight: 58
+        enabled: false
+      question_single_choice:
+        weight: 59
+        enabled: false
+      single_multi_choice_item:
+        weight: 60
+        enabled: false
+field_type: entity_reference_revisions

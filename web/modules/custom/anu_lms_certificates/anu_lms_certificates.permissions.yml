@@ -1,0 +1,4 @@
+view own certificates:
+  title: 'View own certificates'
+  description: 'Allow users to view their own certificates.'
+  restrict access: true

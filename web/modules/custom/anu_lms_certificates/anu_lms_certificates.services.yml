@@ -1,0 +1,20 @@
+services:
+  anu_lms_certificates.event_subscriber:
+    class: 'Drupal\anu_lms_certificates\EventSubscriber\AnuLMSEventSubscriber'
+    arguments:
+      [
+        "@logger.factory",
+        "@anu_lms.lesson",
+        "@anu_lms_certificates.certificate_service",
+        "@anu_lms.course_progress",
+      ]
+    tags:
+      - { name: event_subscriber }
+
+  anu_lms_certificates.certificate_service:
+    class: 'Drupal\anu_lms_certificates\Service\CertificateService'
+    arguments: ["@entity_type.manager","@anu_lms_certificates.pdf_generator_service"]
+
+  anu_lms_certificates.pdf_generator_service:
+    class: 'Drupal\anu_lms_certificates\Service\PdfGeneratorService'
+    arguments: ["@pdf_generator.dompdf_generator", "@file_system"]

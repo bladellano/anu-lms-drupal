@@ -3,9 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_certificates
     - field.field.user.user.user_picture
     - image.style.course_preview
   module:
+    - entity_reference_revisions
     - image
     - user
 _core:
@@ -15,6 +17,15 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_certificates:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
   member_for:
     settings: {  }
     third_party_settings: {  }

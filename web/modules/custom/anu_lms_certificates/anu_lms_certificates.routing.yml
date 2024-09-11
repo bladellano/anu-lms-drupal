@@ -1,0 +1,26 @@
+anu_lms_certificates.certificates_view:
+  path: '/user/{user}/certificados'
+  defaults:
+    _controller: '\Drupal\anu_lms_certificates\Controller\CertificatesController::viewCertificates'
+    _title: 'Meus Certificados'
+  requirements:
+    _permission: 'view own certificates'
+    user: \d+
+  options:
+    parameters:
+      user:
+        type: entity:user
+
+anu_lms_certificates.pdf_download:
+  path: '/user/{user}/certificados/download/{file_name}'
+  defaults:
+    _controller: '\Drupal\anu_lms_certificates\Controller\PdfDownloadController::download'
+    _title: 'Download Certificate'
+  requirements:
+    _permission: 'view own certificates'
+    file_name: '[a-zA-Z0-9_\-\.]+'
+    user: \d+
+  options:
+    parameters:
+      user:
+        type: entity:user

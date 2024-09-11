@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function anu_lms_certificates_theme($existing, $type, $theme, $path)
+{
+  return [
+    'certificates_list' => [
+      'variables' => [
+        'certificates' => [],
+      ],
+      'template' => 'certificates-list',
+    ],
+  ];
+}

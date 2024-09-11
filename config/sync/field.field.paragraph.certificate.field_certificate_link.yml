@@ -1,0 +1,23 @@
+uuid: d3fb480f-056c-45c1-b890-0f88e5357d15
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_certificate_link
+    - paragraphs.paragraphs_type.certificate
+  module:
+    - link
+id: paragraph.certificate.field_certificate_link
+field_name: field_certificate_link
+entity_type: paragraph
+bundle: certificate
+label: 'Link do Certificado'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

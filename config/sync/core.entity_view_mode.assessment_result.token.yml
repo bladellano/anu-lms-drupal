@@ -1,0 +1,11 @@
+uuid: 3c5323e9-5218-417b-8720-015ab28a583a
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - anu_lms_assessments
+id: assessment_result.token
+label: Token
+description: ''
+targetEntityType: assessment_result
+cache: true

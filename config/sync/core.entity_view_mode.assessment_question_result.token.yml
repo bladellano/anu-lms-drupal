@@ -1,0 +1,11 @@
+uuid: daeb4afa-2b5c-42d1-8119-627acb44cd55
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - anu_lms_assessments
+id: assessment_question_result.token
+label: Token
+description: ''
+targetEntityType: assessment_question_result
+cache: true
