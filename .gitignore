@@ -6,6 +6,7 @@
 /web/profiles/contrib/
 /web/libraries/
 /web/sites/development.services.yml
+/node_modules
 
 # Ignore sensitive information
 /web/sites/*/settings.local.php
