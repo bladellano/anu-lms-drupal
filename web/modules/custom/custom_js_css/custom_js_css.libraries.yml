@@ -1,0 +1,15 @@
+custom_styles:
+  css:
+    theme:
+      css/custom-styles.css: {}
+  js:
+    js/custom-scripts.js: {}
+  dependencies:
+  - core/jquery
+  - custom_js_css/youtube
+
+youtube:
+  version: VERSION
+  js:
+    https://www.youtube.com/iframe_api: { type: external, minified: true }
+

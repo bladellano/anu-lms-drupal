@@ -1,0 +1,19 @@
+uuid: 0f488c76-8cf0-49e6-84a9-413233822337
+langcode: pt-br
+status: true
+dependencies: {  }
+id: button
+label: Button
+description: 'Button for ckEditor template demo'
+thumb:
+  - '30'
+code:
+  value: '<p><a class="button button--primary" href="#">Button</a></p>'
+  format: full_html
+formats:
+  full_html: full_html
+  minimal_html: 0
+  basic_html: 0
+  table: 0
+weight: 0
+thumb_alternative: ''

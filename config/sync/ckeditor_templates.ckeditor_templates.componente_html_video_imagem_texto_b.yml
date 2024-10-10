@@ -1,0 +1,18 @@
+uuid: 032cccc8-b06c-41ee-96d6-0377c56ba332
+langcode: pt-br
+status: true
+dependencies: {  }
+id: componente_html_video_imagem_texto_b
+label: 'Componente HTML: Video/Imagem + Texto - B'
+description: ''
+thumb: {  }
+code:
+  value: '<div class="content-container"><div class="video-wrapper"><div class="video-container"><div class="video"><iframe src="https://www.youtube.com/embed/8SR7L1zZOWs?enablejsapi=1" frameborder="0" allowfullscreen="" allow="autoplay"></iframe></div><div class="overlay-image"><img src="/sites/default/files/inline-images/super-homem-de-neg-C3-B3cios-pronto-para-ajudar_jpg_85.jpg" data-entity-uuid="8ced3a74-f66c-41e6-a721-ea32957fd5e3" data-entity-type="file" width="2048" height="1366"></div></div><div class="text-container"><h2>Título</h2><p>Pig frankfurter ball tip sint porchetta leberkas nostrud tail. Picanha aute minim est shank pastrami buffalo porchetta adipisicing tenderloin ribeye. Brisket dolore picanha, excepteur sint sed chicken pariatur aliquip ground round aute. Adipisicing magna short ribs eiusmod. Strip steak jowl picanha, lorem kielbasa et ut anim shank officia quis occaecat tri-tip. Aliqua strip steak spare ribs, ham hock ribeye ground</p></div></div></div>'
+  format: full_html
+formats:
+  full_html: full_html
+  minimal_html: 0
+  basic_html: 0
+  table: 0
+weight: 8
+thumb_alternative: 'https://vuejs.org/assets/components.B1JZbf0_.png'

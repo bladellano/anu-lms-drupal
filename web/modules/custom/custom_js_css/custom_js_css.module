@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implementa hook_page_attachments() para carregar o CSS e JS em todas as páginas.
+ */
+function custom_js_css_page_attachments(array &$attachments) {
+  // Adiciona a biblioteca em todas as páginas.
+  $attachments['#attached']['library'][] = 'custom_js_css/custom_styles';
+}

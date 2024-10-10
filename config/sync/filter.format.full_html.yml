@@ -2,8 +2,11 @@ uuid: a536776f-7f60-47d9-98fd-92ba78e36933
 langcode: pt-br
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.full
   module:
     - editor
+    - media
 _core:
   default_config_hash: vpZysv3RHJjhYzq7O_q5q8mVlHdrSzKELmXyiX6RtV0
 name: 'HTML completo'
@@ -14,29 +17,70 @@ filters:
     id: editor_file_reference
     provider: editor
     status: true
-    weight: 11
+    weight: 15
     settings: {  }
   filter_align:
     id: filter_align
     provider: filter
     status: true
-    weight: 8
+    weight: 9
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: false
+    weight: 9
     settings: {  }
   filter_caption:
     id: filter_caption
     provider: filter
     status: true
-    weight: 9
+    weight: 10
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: 0
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: false
+    weight: 0
     settings: {  }
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter
     status: true
-    weight: 10
+    weight: 11
     settings: {  }
   filter_image_lazy_load:
     id: filter_image_lazy_load
     provider: filter
     status: true
-    weight: 15
+    weight: -10
     settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: false
+    weight: -50
+    settings:
+      filter_url_length: 72
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: -10
+    settings:
+      default_view_mode: default
+      allowed_view_modes:
+        full: full
+      allowed_media_types:
+        image: image
+        remote_video: remote_video
+        video: video

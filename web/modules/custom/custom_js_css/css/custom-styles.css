@@ -1,0 +1,46 @@
+.content-container {
+  margin: 20px 0;
+}
+
+.content-container .video-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 560px;
+  height: 300px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 300px;
+  display: none;
+}
+
+.overlay-image img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.text-container {
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+.text-container h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.text-container p {
+  margin: 0;
+  line-height: 1.6;
+}

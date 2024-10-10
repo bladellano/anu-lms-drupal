@@ -19,6 +19,8 @@
 /.vscode/
 
 /private_files
+/bower_components
+/libraries
 
 !web/autoload.php
 .env

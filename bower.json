@@ -1,0 +1,20 @@
+{
+  "name": "Projeto anu-lms-drupal",
+  "description": "Gerar libraries",
+  "main": "",
+  "authors": [
+    "Caio <bladellano@gmail.com>"
+  ],
+  "license": "Private",
+  "homepage": "https://github.com/bladellano/anu-lms-drupal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ckeditor": "4.x"
+  }
+}

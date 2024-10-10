@@ -1,0 +1,18 @@
+uuid: b37b3dfe-cc5f-46e8-8999-dcbcb77c8461
+langcode: pt-br
+status: true
+dependencies: {  }
+id: componente_with_embed
+label: 'Componente with media'
+description: ''
+thumb: {  }
+code:
+  value: '<div class="content-container"><div class="video-wrapper"><div class="video-container"><drupal-media data-entity-type="media" data-entity-uuid="1002f013-ba6d-4a70-9771-e8c63b464a58">&nbsp;</drupal-media><div class="overlay-image"><img src="/sites/default/files/inline-images/1600w-wK95f3XNRaM_jpg_92_2.jpg" width="1600" height="900"></div></div><div class="text-container"><h2>Título</h2><p>Pig frankfurter ball tip sint porchetta leberkas nostrud tail. Picanha aute minim est shank pastrami buffalo porchetta adipisicing tenderloin ribeye. Brisket dolore picanha, excepteur sint sed chicken pariatur aliquip ground round aute. Adipisicing magna short ribs eiusmod. Strip steak jowl picanha, lorem kielbasa et ut anim shank officia quis occaecat tri-tip. Aliqua strip steak spare ribs, ham hock ribeye ground</p></div></div></div>'
+  format: full_html
+formats:
+  full_html: full_html
+  minimal_html: 0
+  basic_html: 0
+  table: 0
+weight: 9
+thumb_alternative: 'https://www.vdocipher.com/blog/wp-content/uploads/2022/12/Using-HTML-Video-Controls-and-Elements-for-HTML5-Video-Streaming.png'

@@ -1,0 +1,18 @@
+uuid: a3c2bfcf-f3bb-48b1-aeff-3978c5be6a49
+langcode: pt-br
+status: true
+dependencies: {  }
+id: componente_html_video_imagem_texto_a
+label: 'Componente HTML: Video/Imagem + Texto - A'
+description: ''
+thumb: {  }
+code:
+  value: '<div class="content-container"><div class="video-wrapper"><div class="video-container"><div class="video"><iframe src="https://www.youtube.com/embed/HTXcTWr4HIQ?enablejsapi=1" frameborder="0" allowfullscreen="" allow="autoplay"></iframe></div><div class="overlay-image"><img src="/sites/default/files/inline-images/premium_photo-1693221705305-6eff5fa8e483_85.jpg" data-entity-uuid="a68d3f91-c120-4cb6-8180-55d0797409fb" data-entity-type="file" width="2071" height="1381"></div></div><div class="text-container"><h2>Título</h2><p>Pig frankfurter ball tip sint porchetta leberkas nostrud tail. Picanha aute minim est shank pastrami buffalo porchetta adipisicing tenderloin ribeye. Brisket dolore picanha, excepteur sint sed chicken pariatur aliquip ground round aute. Adipisicing magna short ribs eiusmod. Strip steak jowl picanha, lorem kielbasa et ut anim shank officia quis occaecat tri-tip. Aliqua strip steak spare ribs, ham hock ribeye ground</p></div></div></div>'
+  format: full_html
+formats:
+  full_html: full_html
+  minimal_html: 0
+  basic_html: 0
+  table: 0
+weight: 7
+thumb_alternative: 'https://miro.medium.com/v2/resize:fit:2000/1*NKwqWGnQf15ZiqWYNVGmjQ.png'
