@@ -9,18 +9,18 @@
 // ***********************************************
 
 Cypress.Commands.add('xdebugOff', () => {
-  cy.exec('cd ../ && lando xdebug-off', { failOnNonZeroExit:false })
+  cy.exec('cd ../ && lando xdebug-off', { failOnNonZeroExit: false })
 });
 
 Cypress.Commands.add('loginByAdmin', () => {
-    cy.exec('cd ../ && ./vendor/bin/drush uli --uri="http://drupal-lms.local.com"', { failOnNonZeroExit:false })
-      .its('stdout')
-      .then(function (url) {
+  cy.exec('cd ../ && ./vendor/bin/drush uli --uri="http://drupal-lms.local.com"', { failOnNonZeroExit: false })
+    .its('stdout')
+    .then(function (url) {
       cy.visit(url);
     });
 });
 
-Cypress.Commands.overwrite('visit', (originalFn, url, options ) => {
+Cypress.Commands.overwrite('visit', (originalFn, url, options) => {
   options = options || {};
   options.auth = {
     username: Cypress.env('user'),
@@ -29,3 +29,10 @@ Cypress.Commands.overwrite('visit', (originalFn, url, options ) => {
 
   return originalFn(url, options)
 })
+
+Cypress.Commands.add('setCkeditorContent', (selector, content) => {
+  cy.get(selector).then(($element) => {
+    const editorInstance = $element[0].ckeditorInstance;
+    editorInstance.setData(content);
+  });
+});
