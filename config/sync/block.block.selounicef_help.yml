@@ -1,0 +1,22 @@
+uuid: dd249eae-44fb-4d74-9fa7-0585a8e36fd7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - selounicef
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: selounicef_help
+theme: selounicef
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  label_display: '0'
+  provider: help
+visibility: {  }

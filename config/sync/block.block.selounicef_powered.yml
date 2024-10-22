@@ -1,0 +1,22 @@
+uuid: ea7b1732-d0d8-4d9b-9c2f-71a633f91d7f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - selounicef
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: selounicef_powered
+theme: selounicef
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Desenvolvido com Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

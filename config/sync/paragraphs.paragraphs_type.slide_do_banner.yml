@@ -1,0 +1,18 @@
+uuid: 139b1d8b-b93b-46d9-b4e1-851f6c6b06a1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: block_content.banner_hero.field_slide
+        weight: 62
+id: slide_do_banner
+label: 'Slide do Banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

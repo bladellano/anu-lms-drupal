@@ -1,0 +1,31 @@
+uuid: 55adf57d-192e-4757-a034-ed6edbb825b8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_related_content
+    - node.type.article
+    - node.type.page
+    - paragraphs.paragraphs_type.slide_do_banner
+id: paragraph.slide_do_banner.field_related_content
+field_name: field_related_content
+entity_type: paragraph
+bundle: slide_do_banner
+label: 'Conteúdo Relacionado'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

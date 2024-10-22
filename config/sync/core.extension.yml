@@ -75,6 +75,7 @@ module:
   text: 0
   token: 0
   toolbar: 0
+  twig_tweak: 0
   update: 0
   user: 0
   variationcache: 0
@@ -93,4 +94,5 @@ theme:
   stable9: 0
   material_base: 0
   material_base_mdc: 0
+  selounicef: 0
 profile: standard

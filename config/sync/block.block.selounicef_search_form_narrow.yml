@@ -1,0 +1,23 @@
+uuid: a403cabc-6c9b-4fe4-84af-3c79c4694e7f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - selounicef
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: selounicef_search_form_narrow
+theme: selounicef
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulário de busca (estreito)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

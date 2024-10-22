@@ -1,0 +1,19 @@
+uuid: 2f38e9eb-07a6-44cd-8a5d-c11681641b4c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.slide_do_banner
+id: paragraph.slide_do_banner.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: slide_do_banner
+label: 'Título do Slide'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

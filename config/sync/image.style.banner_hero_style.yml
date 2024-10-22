@@ -1,0 +1,7 @@
+uuid: 0a15ee0d-ecf1-4145-ba22-354d63ff058f
+langcode: pt-br
+status: true
+dependencies: {  }
+name: banner_hero_style
+label: 'Banner Hero Style'
+effects: {  }

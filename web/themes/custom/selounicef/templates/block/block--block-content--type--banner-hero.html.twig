@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ * Template for the Banner Hero block.
+ *
+ * Extends Olivero's block template and adds custom Banner Hero content.
+ */
+#}
+{% extends 'block.html.twig' %}
+
+{% block content %}
+  <div {{ content_attributes.addClass('block__content', 'banner-hero-slider') }}>
+  
+    {% if content.field_slide %}
+      <div class="banner-hero-slider">
+        {% for slide in content.field_slide %}
+          {% if slide['#paragraph'] %}
+            {% set slide_content = slide['#paragraph'] %}
+            <div class="banner-hero-slide">
+              {% if slide_content.field_image.entity %}
+                <div class="banner-hero-image">
+                {{ slide_content.field_image.entity.field_media_image|view }}
+                </div>
+              {% endif %}
+              <div class="banner-hero-content">
+                {% if slide_content.field_related_content.entity.field_tags.entity %}
+                  <span class="banner-hero-category">{{ slide_content.field_related_content.entity.field_tags.entity.label }}</span>
+                {% endif %}
+                {% if slide_content.field_title.value %}
+                  <h2 class="banner-hero-title">{{ slide_content.field_title.value }}</h2>
+                {% endif %}
+                {% if slide_content.field_date.value %}
+                  <div class="banner-hero-date">{{ slide_content.field_date.value|date('d/m/Y') }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% if (content.field_slide|length) > 1 %}
+        <div class="banner-hero-navigation">
+          <button class="banner-hero-prev" aria-label="Slide anterior">Anterior</button>
+          <button class="banner-hero-next" aria-label="Próximo slide">Próximo</button>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endblock %}

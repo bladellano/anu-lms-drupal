@@ -1,0 +1,8 @@
+uuid: fac489a0-5c6a-4bf4-ab7b-e7321911324f
+langcode: pt-br
+status: true
+dependencies: {  }
+id: banner_hero
+label: 'Banner Hero'
+revision: false
+description: 'Banner rotativo para destacar conteúdos principais'

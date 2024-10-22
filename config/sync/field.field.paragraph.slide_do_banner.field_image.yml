@@ -1,0 +1,29 @@
+uuid: eed95470-2237-467f-950a-7035748a24fc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - media.type.image
+    - paragraphs.paragraphs_type.slide_do_banner
+id: paragraph.slide_do_banner.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: slide_do_banner
+label: 'Imagem do Slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

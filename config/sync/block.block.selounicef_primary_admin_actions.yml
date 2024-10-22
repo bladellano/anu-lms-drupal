@@ -1,0 +1,20 @@
+uuid: ada77e89-c9bf-48b5-a930-e16e85af16d2
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - selounicef
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: selounicef_primary_admin_actions
+theme: selounicef
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Ações primárias do administrador'
+  label_display: '0'
+  provider: core
+visibility: {  }

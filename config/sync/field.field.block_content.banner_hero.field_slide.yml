@@ -1,0 +1,25 @@
+uuid: 414c7fdb-2c7c-42af-b045-176b70de9e50
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_hero
+    - field.storage.block_content.field_slide
+  module:
+    - entity_reference_revisions
+id: block_content.banner_hero.field_slide
+field_name: field_slide
+entity_type: block_content
+bundle: banner_hero
+label: Slide
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: paragraph_reverse
+  handler_settings:
+    negate: 0
+    self_field_id: block_content.banner_hero.field_slide
+field_type: entity_reference_revisions

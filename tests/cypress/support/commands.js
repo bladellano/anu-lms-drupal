@@ -30,9 +30,11 @@ Cypress.Commands.overwrite('visit', (originalFn, url, options) => {
   return originalFn(url, options)
 })
 
-Cypress.Commands.add('setCkeditorContent', (selector, content) => {
-  cy.get(selector).then(($element) => {
+Cypress.Commands.add('setCkeditorContent', (selector, content, index = 0) => {
+  cy.get(selector).eq(index).then(($element) => {
     const editorInstance = $element[0].ckeditorInstance;
-    editorInstance.setData(content);
+    if (editorInstance) {
+      editorInstance.setData(content);
+    }
   });
 });

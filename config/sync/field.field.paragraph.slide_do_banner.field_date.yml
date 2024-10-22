@@ -1,0 +1,21 @@
+uuid: e81baf3b-d621-4ce9-a5cc-46c07f37d033
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_date
+    - paragraphs.paragraphs_type.slide_do_banner
+  module:
+    - datetime
+id: paragraph.slide_do_banner.field_date
+field_name: field_date
+entity_type: paragraph
+bundle: slide_do_banner
+label: 'Data do Slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: 579a8329-9562-4620-af3f-e5e287197ffe
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - selounicef
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: selounicef_content
+theme: selounicef
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

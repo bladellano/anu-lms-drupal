@@ -1,0 +1,22 @@
+uuid: a7c03d84-631e-4699-b52d-b63109aaecc0
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - selounicef
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: selounicef_primary_local_tasks
+theme: selounicef
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas primárias'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

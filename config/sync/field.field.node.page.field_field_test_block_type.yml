@@ -1,0 +1,27 @@
+uuid: f3e515ca-364b-456f-b158-9b3a31f41e81
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_test_block_type
+    - node.type.page
+id: node.page.field_field_test_block_type
+field_name: field_field_test_block_type
+entity_type: node
+bundle: page
+label: 'Field Test Block Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

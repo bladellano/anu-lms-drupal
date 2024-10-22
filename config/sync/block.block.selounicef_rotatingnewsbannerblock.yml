@@ -1,0 +1,30 @@
+uuid: e34938d1-174d-497c-9edb-f92191247902
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_hero:824a946f-7159-4ceb-812e-e900c7d44e32'
+  module:
+    - block_content
+    - system
+  theme:
+    - selounicef
+id: selounicef_rotatingnewsbannerblock
+theme: selounicef
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:824a946f-7159-4ceb-812e-e900c7d44e32'
+settings:
+  id: 'block_content:824a946f-7159-4ceb-812e-e900c7d44e32'
+  label: 'Bloco Banner Rotativo Notícias'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

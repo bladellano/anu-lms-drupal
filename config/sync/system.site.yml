@@ -8,7 +8,7 @@ slogan: 'Domine DevOps, Frontend e Backend: Cursos completos para sua carreira t
 page:
   403: ''
   404: ''
-  front: /node/27
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: pt-br

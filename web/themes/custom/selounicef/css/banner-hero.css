@@ -1,0 +1,52 @@
+/* banner-hero.css */
+.banner-hero-slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner-hero-slide {
+    position: relative;
+  }
+  
+  .banner-hero-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  .banner-hero-category {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+  
+  .banner-hero-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .banner-hero-date {
+    font-size: 0.9em;
+  }
+  
+  .banner-hero-navigation {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .banner-hero-prev,
+  .banner-hero-next {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }

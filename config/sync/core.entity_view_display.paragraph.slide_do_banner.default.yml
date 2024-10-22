@@ -1,0 +1,52 @@
+uuid: deb0abc8-3e23-4747-b378-9ee8916b3df5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide_do_banner.field_date
+    - field.field.paragraph.slide_do_banner.field_image
+    - field.field.paragraph.slide_do_banner.field_related_content
+    - field.field.paragraph.slide_do_banner.field_title
+    - paragraphs.paragraphs_type.slide_do_banner
+  module:
+    - datetime
+id: paragraph.slide_do_banner.default
+targetEntityType: paragraph
+bundle: slide_do_banner
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_related_content:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

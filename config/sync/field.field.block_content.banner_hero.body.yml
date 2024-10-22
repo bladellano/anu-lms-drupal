@@ -1,0 +1,28 @@
+uuid: 54f04bce-085d-44e4-891b-923d03fa1a31
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_hero
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.banner_hero.body
+field_name: body
+entity_type: block_content
+bundle: banner_hero
+label: Body
+description: 'Uma breve descrição do banner rotativo a ser criado, incluindo os tipos de conteúdos que serão exibidos.'
+required: false
+translatable: true
+default_value:
+  -
+    value: '<p>Uma breve descrição do banner rotativo...</p>'
+    summary: ''
+    format: minimal_html
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
